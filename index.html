@@ -36,6 +36,11 @@
   .skills { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
   .chip { font-size: 13.5px; padding: 5px 11px; border: 1px solid var(--line); border-radius: 999px; color: var(--muted); }
   footer { padding: 48px 0 80px; }
+  /* .wrap sets the horizontal padding, which outranks the element rules above;
+     these put the vertical rhythm back. */
+  header.wrap { padding: 88px 24px 56px; }
+  section.wrap { padding: 60px 24px; }
+  footer.wrap { padding: 48px 24px 80px; }
   footer a { color: var(--accent); font-weight: 600; text-decoration: none; }
   footer p { color: var(--muted); font-size: 14px; }
 </style>
